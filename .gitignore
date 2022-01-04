@@ -195,19 +195,20 @@ cython_debug/
 
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
-.history
-.ionide
-.pt
-.html
-.tsv
-.csv
-.zip
-.jpg
-
+*.history
+*.ionide
+*.pt
+*.html
+*.tsv
+*.csv
+*.zip
+*.jpg
+*.gz
+*ubyte*
 # Support for Project snippet scope
 !.vscode/*.code-snippets
 
 
-.zip
+*.zip
 .data/
 # End of https://www.toptal.com/developers/gitignore/api/python,macos,jupyternotebooks,visualstudiocode
